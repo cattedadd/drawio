@@ -1,26 +1,18 @@
-<mxfile host="www.draw.io" modified="2023-01-25T00:00:00" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="B9CLOgFEQfybq3a3cldw" version="13.6.12" type="device"><diagram id="9JY9zgeTKcJvi8DJ6y57" name="Sleep Easy Hotel System Domain Class Diagram"><mxGraphModel dx="1426" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-  <root>
-    <mxCell id="0"/>
-    <mxCell id="1" parent="0"/>
-    <mxCell id="DhBzrHJrOxDWEjl07gCJ-4" value="Room Inventory" vertex="1" parent="1">
-      <mxGeometry x="110" y="80" width="110" height="50" as="geometry"/>
-    </mxCell>
-    <mxCell id="xd2sd-wic98vcDvWyfWm-4" value="Registration" vertex="1" parent="1">
-      <mxGeometry x="350" y="80" width="110" height="50" as="geometry"/>
-    </mxCell>
-    <mxCell id="mivjGcJn5U5z5A-eD6jk-4" value="Room Service" vertex="1" parent="1">
-      <mxGeometry x="590" y="80" width="110" height="50" as="geometry"/>
-    </mxCell>
-    <mxCell id="q3QGzKRAsSPHpyFXKzco-4" value="Payments and Billing" vertex="1" parent="1">
-      <mxGeometry x="110" y="230" width="160" height="50" as="geometry"/>
-    </mxCell>
-    <mxCell id="zC-_rgfKisVKQAFGmWhn-4" value="Reporting" vertex="1" parent="1">
-      <mxGeometry x="590" y="230" width="110" height="50" as="geometry"/>
-    </mxCell>
-    <mxCell id="DhBzrHJrOxDWEjl07gCJ-5" value="Number" vertex="1" parent="DhBzrHJrOxDWEjl07gCJ-4">
-      <mxGeometry x="60" y="0" width="50" height="50" as="geometry"/>
-    </mxCell>
-    <mxCell id="DhBzrHJrOxDWEjl07gCJ-6" value="Description" vertex="1" parent="DhBzrHJrOxDWEjl07gCJ-4">
-      <mxGeometry x="170" y="0" width="60" height="50" as="geometry"/>
-    </mxCell>
-    <mxCell id="DhBz
+<mxfile userAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.81 Safari/537.36" version="14.6.10" editor="www.draw.io">
+  <diagram id="1nK37xOkfPbGSVMk7jy1" name="Sleep Easy Hotel Domain Class Diagram">
+    <mxGraphModel dx="1420" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QsU6AuvU6VUGp6h0Y9JE" value="Sleep Easy Hotel" style="swimlane;swimlaneFillColor=#F5F5F5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="1050" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="iKRvEnKZjW8Z0nBcEoz7" value="Guest Services" style="swimlane;swimlaneFillColor=#F5F5F5;" vertex="1" parent="QsU6AuvU6VUGp6h0Y9JE">
+          <mxGeometry x="20" y="40" width="1010" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zulP2krC81rl3LMq-4C4" value="Human Resources" style="swimlane;swimlaneFillColor=#F5F5F5;" vertex="1" parent="QsU6AuvU6VUGp6h0Y9JE">
+          <mxGeometry x="20" y="130" width="1010" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QdC0qqlJc4OF4MfmzOio" value="Financial Services" style="swimlane;swimlaneFillColor=#F5F5F5;" vertex="1" parent="QsU6AuvU6VUGp6h0Y9JE">
+          <mxGeometry x="20" y="200" width="1010" height="40" as="geometry" />
+        </mxCell>
