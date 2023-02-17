@@ -1,69 +1,26 @@
-<diagram>
-    <class label="Hotel" description="A hotel">
-        <attribute label="name" type="String"/>
-        <attribute label="address" type="String"/>
-        <attribute label="phone" type="String"/>
-        <attribute label="email" type="String"/>
-    </class>
-    <class label="Employee" description="An employee of the hotel">
-        <attribute label="id" type="String"/>
-        <attribute label="firstName" type="String"/>
-        <attribute label="lastName" type="String"/>
-        <attribute label="title" type="String"/>
-        <attribute label="email" type="String"/>
-    </class>
-    <class label="Guest" description="A guest of the hotel">
-        <attribute label="id" type="String"/>
-        <attribute label="firstName" type="String"/>
-        <attribute label="lastName" type="String"/>
-        <attribute label="email" type="String"/>
-    </class>
-    <class label="Room" description="A room in the hotel">
-        <attribute label="number" type="String"/>
-        <attribute label="type" type="String"/>
-        <attribute label="rate" type="double"/>
-        <attribute label="status" type="String"/>
-        <attribute label="checkInDate" type="Date"/>
-        <attribute label="checkOutDate" type="Date"/>
-    </class>
-    <class label="RoomInventory" description="The inventory of rooms in the hotel">
-        <attribute label="id" type="String"/>
-        <attribute label="number" type="String"/>
-        <attribute label="description" type="String"/>
-        <attribute label="type" type="String"/>
-        <attribute label="rate" type="double"/>
-        <attribute label="status" type="String"/>
-    </class>
-    <class label="Registration" description="The registration system of the hotel">
-        <attribute label="id" type="String"/>
-        <attribute label="guest" type="Guest"/>
-        <attribute label="room" type="Room"/>
-        <attribute label="checkInDate" type="Date"/>
-        <attribute label="checkOutDate" type="Date"/>
-        <attribute label="paymentMethod" type="String"/>
-    </class>
-    <class label="RoomService" description="A room service in the hotel">
-        <attribute label="id" type="String"/>
-        <attribute label="room" type="Room"/>
-        <attribute label="employee" type="Employee"/>
-        <attribute label="serviceCode" type="String"/>
-        <attribute label="quantity" type="int"/>
-        <attribute label="date" type="Date"/>
-    </class>
-    <class label="Service" description="A service in the hotel">
-        <attribute label="code" type="String"/>
-        <attribute label="description" type="String"/>
-        <attribute label="price" type="double"/>
-        <attribute label="type" type="String"/>
-    </class>
-    <class label="Staff" description="A staff member of the hotel">
-        <attribute label="id" type="String"/>
-        <attribute label="firstName" type="String"/>
-        <attribute label="lastName" type="String"/>
-        <attribute label="title" type="String"/>
-    </class>
-    <class label="User" description="A user of the hotel's system">
-        <attribute label="id" type="String"/>
-        <attribute label="username" type="String"/>
-        <attribute label="password" type="String"/>
-        <attribute label="level" type
+<mxfile host="www.draw.io" modified="2023-01-25T00:00:00" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="B9CLOgFEQfybq3a3cldw" version="13.6.12" type="device"><diagram id="9JY9zgeTKcJvi8DJ6y57" name="Sleep Easy Hotel System Domain Class Diagram"><mxGraphModel dx="1426" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="DhBzrHJrOxDWEjl07gCJ-4" value="Room Inventory" vertex="1" parent="1">
+      <mxGeometry x="110" y="80" width="110" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="xd2sd-wic98vcDvWyfWm-4" value="Registration" vertex="1" parent="1">
+      <mxGeometry x="350" y="80" width="110" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="mivjGcJn5U5z5A-eD6jk-4" value="Room Service" vertex="1" parent="1">
+      <mxGeometry x="590" y="80" width="110" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="q3QGzKRAsSPHpyFXKzco-4" value="Payments and Billing" vertex="1" parent="1">
+      <mxGeometry x="110" y="230" width="160" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="zC-_rgfKisVKQAFGmWhn-4" value="Reporting" vertex="1" parent="1">
+      <mxGeometry x="590" y="230" width="110" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="DhBzrHJrOxDWEjl07gCJ-5" value="Number" vertex="1" parent="DhBzrHJrOxDWEjl07gCJ-4">
+      <mxGeometry x="60" y="0" width="50" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="DhBzrHJrOxDWEjl07gCJ-6" value="Description" vertex="1" parent="DhBzrHJrOxDWEjl07gCJ-4">
+      <mxGeometry x="170" y="0" width="60" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="DhBz
